@@ -1,0 +1,14 @@
+Package: helloworld
+Version: 1
+Depends: libc
+Source: package/helloworld
+Section: utils
+Architecture: ar71xx
+Installed-Size: 1333
+Filename: helloworld_1_ar71xx.ipk
+Size: 2056
+MD5Sum: 7fc7a9fe668557cad34f1ea5a8c0fa3a
+SHA256sum: 929ed0b80aafde196c4a8bdb1795a0e3e63de52f30bd440a796bb058e5acd587
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+
