@@ -15,7 +15,6 @@ env:
   - secure: "YLxUjhv8OxsKKoY9qcblZQSRKlRnHyzV2GoHtKvEgS7fISaS1D46ycUuozNjTbfCKyEDnsri2xqGtwj/jZoMhWbJKYC+xld5QRivF0xoneflGVVm0WDMMliZBTn3flYDaWzPgZBwy7gDpFgsCa7F8E1F8e86/yqesOJJwbg4WzGDE3Yf0+dPubhwGOZrXdZD5mf1Y6Et0k+qKF/3FyLw0K9dGV/5CC+6NJKn8geXErA1Ju51I6buHccRvgbgC7I7yyg0J+p6QUVPmjFEaK0Y5fDY/BQRo8OfE6T9g5myF/lRsvRhDxWTrQhhTWAHlUMT22D7kZ/WzxNGGak1c87B0QHeGX4MWd1N+bcq29dkDeREdKAjf1CT7EkKbQFw8Jwe4lAXbPrH160eyY33QsAEXpaTeQAcHqHcYkRAvmvbIDKYEIKjZtM0ARlPj/1c8aK1L7Fq30irUbswBUby3Q661w4oqXKnJ4pO3zrZ7Lw7oQTTKKj73u1tn1KRRg+DGdvmd2K6z9f5mN+UktLwmGoTrJfNRZZC6Ni9LtcPPBsPebVGJUindd4mrvzkqXrf5fIuSd0mwx/d4s2C2/cVFoDEFWlfsaQc/MbR5E7+5BgA1EkcXSM2lY4Fabby5RK7KG5yey3dgVkBjBxPb0LbuIQQhpx5c6CFA5H9D8PrvrlFnEM="
   matrix:
   - SDK_URL=https://downloads.openwrt.org/chaos_calmer/15.05/ar71xx/generic/OpenWrt-SDK-15.05-ar71xx-generic_gcc-4.8-linaro_uClibc-0.9.33.2.Linux-x86_64.tar.bz2
-  - SDK_URL=https://downloads.openwrt.org/chaos_calmer/15.05/ramips/mt7620/OpenWrt-SDK-15.05-ramips-mt7620_gcc-4.8-linaro_uClibc-0.9.33.2.Linux-x86_64.tar.bz2
 install:
 - mkdir -p $TRAVIS_BUILD_DIR/local ; cd $TRAVIS_BUILD_DIR/local
 - wget "http://us.archive.ubuntu.com/ubuntu/pool/main/c/ccache/ccache_3.1.6-1_amd64.deb"
